@@ -8,8 +8,8 @@ from time import sleep
 class Browser:
     chrome = webdriver.Chrome("D:\Marian\pers\chromeDriver\chromedriver.exe")
     chrome.maximize_window()
-    chrome.implicitly_wait(5)
-    chrome.set_page_load_timeout(10)
+    chrome.implicitly_wait(10)
+    chrome.set_page_load_timeout(15)
     chrome.maximize_window()
     chrome.get("https://altex.ro/")
 
